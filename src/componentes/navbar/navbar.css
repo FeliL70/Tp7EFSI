@@ -1,0 +1,57 @@
+.barra-navegacion {
+    background: #222;
+    padding: 0 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-navegacion {
+    font-weight: bold;
+    font-size: 25px;
+    color: #00bcd4;
+    margin-right: 40px;
+  }
+  
+  .enlace-navegacion {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 25px;
+  }
+  
+  .enlace-navegacion:hover, .boton-desplegable:hover {
+    color: #00bcd4;
+  }
+  
+  .desplegable-productos {
+    position: relative;
+    margin-right: 25px;
+  }
+  
+  .boton-desplegable {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .menu-desplegable {
+    display: block;
+    position: absolute;
+    top: 110%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+    width: 170px;
+    z-index: 10;
+  }
+  
+  .item-desplegable {
+    display: block;
+    padding: 12px 22px;
+    color: #222;
+    text-decoration: none;
+  }
+  
+  .item-desplegable:hover {
+    background: #00bcd4;
+    color: #fff;
+  }
