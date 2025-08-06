@@ -1,0 +1,39 @@
+.contenedor-quienes {
+  min-width: 50vw;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 30px;
+}
+
+.contendor-quienes h1 {
+  color: #2196f3;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.contendor-quienes h2 {
+  margin-top: 32px;
+  color: #00bcd4;
+  text-align: center;
+}
+
+.contendor-quienes p {
+  font-size: 1.15rem;
+  color: #000;
+  text-align: center;
+}
+
+.fotos-oficinas {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.fotos-oficinas img {
+  width: 229px;
+  height: 229px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  background: #eee;
+}

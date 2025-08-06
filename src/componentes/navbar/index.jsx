@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="barra-navegacion">
-      <span className="logo-navegacion">CelularesYA</span>
+      <span className="logo-navegacion">Celulares TP 7</span>
       <Link to="/" className="enlace-navegacion">Inicio</Link>
       <Link to="/quienes-somos" className="enlace-navegacion">Quiénes somos</Link>
       <div

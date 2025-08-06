@@ -1,5 +1,5 @@
 .barra-navegacion {
-    background: #222;
+    background: #a5b6ff;
     padding: 0 40px;
     height: 60px;
     display: flex;
@@ -9,18 +9,18 @@
   .logo-navegacion {
     font-weight: bold;
     font-size: 25px;
-    color: #00bcd4;
+    color: #000000;
     margin-right: 40px;
   }
   
   .enlace-navegacion {
-    color: #fff;
+    color: #464545;
     text-decoration: none;
     margin-right: 25px;
   }
   
   .enlace-navegacion:hover, .boton-desplegable:hover {
-    color: #00bcd4;
+    color: #4e4e4e;
   }
   
   .desplegable-productos {
@@ -29,7 +29,7 @@
   }
   
   .boton-desplegable {
-    color: #fff;
+    color: #4b4b4b;
     cursor: pointer;
   }
   
@@ -37,7 +37,7 @@
     display: block;
     position: absolute;
     top: 110%;
-    background-color: #fff;
+    background-color: #414141;
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.13);
     width: 170px;
@@ -47,7 +47,7 @@
   .item-desplegable {
     display: block;
     padding: 12px 22px;
-    color: #222;
+    color: #ffffff;
     text-decoration: none;
   }
   
